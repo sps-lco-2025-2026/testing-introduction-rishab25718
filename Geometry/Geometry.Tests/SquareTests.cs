@@ -11,8 +11,8 @@ public sealed class SquareTests
     public void TestOnce()
     {
         Square sq = new(5.8);
-        Assert.AreEqual(sq.Area, 33.64);
-        Assert.AreEqual(sq.Perimeter, 23.2);
+        Assert.AreEqual(33.64, sq.Area);
+        Assert.AreEqual(23.2, sq.Perimeter);
     }   
 
     [TestMethod]
